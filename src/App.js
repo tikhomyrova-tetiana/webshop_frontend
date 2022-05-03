@@ -4,7 +4,6 @@ import Homepage from "./pages/Homepage";
 import Shop from "./pages/Shop";
 import Details from "./pages/Details";
 import { NavBar } from "../src/components/NavBar/NavBar";
-import ProductCard from "./components/ProductCard/ProductCard";
 
 function App() {
   return (

@@ -1,0 +1,30 @@
+.productDetailImg {
+    width: 300px
+}
+
+.detailView {
+    width: 750px;
+    display: flex;
+    margin: 50px auto;
+}
+
+.details {
+    display:flex;
+    flex-direction: column;
+    align-items:baseline;
+    justify-content: space-evenly;
+    margin: auto 30px
+}
+
+.shareIcons {
+    width: 150px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.twoElements {
+    width: 200px;
+    display:flex;
+    align-items: baseline;
+    justify-content: space-between;
+}

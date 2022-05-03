@@ -4,7 +4,7 @@ import Homepage from "./pages/Homepage";
 import Shop from "./pages/Shop";
 import Details from "./pages/Details";
 import { NavBar } from "../src/components/NavBar/NavBar";
-
+// Swen
 function App() {
   return (
     <div className="App">

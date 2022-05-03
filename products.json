@@ -1,5 +1,5 @@
-{
-    "id": 1,
+[{
+    "id": "1",
     "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
     "price": "109.95",
     "description":
@@ -21,7 +21,7 @@
     "rating": "4.1",
     "categoryId": "3",
     "createdAt": "new Date()",
-    "updatedAt": "new Date()",
+    "updatedAt": "new Date()"
   },
   {
     "id": "3",
@@ -33,7 +33,7 @@
     "rating": "4.7",
     "categoryId": "3",
     "createdAt": "new Date()",
-    "updatedAt": "new Date()",
+    "updatedAt": "new Date()"
   },
   {
     "id": "4",
@@ -45,7 +45,7 @@
     "rating": "2.1",
     "categoryId": "3",
     "createdAt": "new Date()",
-    "updatedAt": "new Date()",
+    "updatedAt": "new Date()"
   },
   {
     "id": "5",
@@ -59,7 +59,7 @@
     "rating":" 4.6",
     "categoryId": "4",
     "createdAt": "new Date()",
-    "updatedAt": "new Date()",
+    "updatedAt": "new Date()"
   },
   {
     "id": "6",
@@ -72,7 +72,7 @@
     "rating": "3.9",
     "categoryId": "1",
     "createdAt": "new Date()",
-    "updatedAt": "new Date()",
+    "updatedAt": "new Date()"
   },
   {
     "id": "7",
@@ -85,7 +85,7 @@
     "rating": "2",
     "categoryId": "1",
     "createdAt": "new Date()",
-    "updatedAt": "new Date()",
+    "updatedAt": "new Date()"
   },
   {
     "id": "8",
@@ -98,7 +98,7 @@
     "rating": "1.9",
     "categoryId": "2",
     "createdAt": "new Date()",
-    "updatedAt": "new Date()",
+    "updatedAt": "new Date()"
   },
   {
     "id": "9",
@@ -110,7 +110,7 @@
     "rating": "3.3",
     "categoryId": "1",
     "createdAt": "new Date()",
-    "updatedAt": "new Date()",
+    "updatedAt": "new Date()"
   },
   {
     "id": "10",
@@ -122,7 +122,7 @@
     "rating": "2.9",
     "categoryId": "1",
     "createdAt": "new Date()",
-    "updatedAt": "new Date()",
+    "updatedAt": "new Date()"
   },
   {
     "id": "11",
@@ -135,7 +135,7 @@
     "rating": "4.8",
     "categoryId": "1",
     "createdAt": "new Date()",
-    "updatedAt": "new Date()",
+    "updatedAt": "new Date()"
   },
   {
     "id": "12",
@@ -148,7 +148,7 @@
     "rating": "4.8",
     "categoryId": "1",
     "createdAt": "new Date()",
-    "updatedAt": "new Date()",
+    "updatedAt": "new Date()"
   },
   {
     "id": "13",
@@ -161,7 +161,7 @@
     "rating": "2.9",
     "categoryId": "1",
     "createdAt": "new Date()",
-    "updatedAt": "new Date()",
+    "updatedAt": "new Date()"
   },
   {
     "id": "14",
@@ -174,7 +174,7 @@
     "rating": "2.2",
     "categoryId": "1",
     "createdAt": "new Date()",
-    "updatedAt": "new Date()",
+    "updatedAt": "new Date()"
   },
   {
     "id": "15",
@@ -186,7 +186,7 @@
     "rating": "2.6",
     "categoryId": "4",
     "createdAt": "new Date()",
-    "updatedAt": "new Date()",
+    "updatedAt": "new Date()"
   },
   {
     "id": "16",
@@ -199,7 +199,7 @@
     "rating": "2.9",
     "categoryId": "4",
     "createdAt": "new Date()",
-    "updatedAt": "new Date()",
+    "updatedAt": "new Date()"
   },
   {
     "id": "17",
@@ -211,7 +211,7 @@
     "rating": "3.8",
     "categoryId": "4",
     "createdAt": "new Date()",
-    "updatedAt": "new Date()",
+    "updatedAt": "new Date()"
   },
   {
     "id": "18",
@@ -223,7 +223,7 @@
     "rating": "4.7",
     "categoryId": "4",
     "createdAt": "new Date()",
-    "updatedAt": "new Date()",
+    "updatedAt": "new Date()"
   },
   {
     "id": "19",
@@ -235,7 +235,7 @@
     "rating": "4.5",
     "categoryId": "4",
     "createdAt": "new Date()",
-    "updatedAt": "new Date()",
+    "updatedAt": "new Date()"
   },
   {
     "id": "20",
@@ -247,5 +247,5 @@
     "rating": "3.6",
     "categoryId": "4",
     "createdAt": "new Date()",
-    "updatedAt": "new Date()",
-  }
+    "updatedAt": "new Date()"
+  }]

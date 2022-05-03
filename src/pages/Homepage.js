@@ -1,7 +1,7 @@
 export default function Homepage() {
     return (
         <div>
-            <p>Homepage</p>
+            <h1>Homepage</h1>
         </div>
     )
 }

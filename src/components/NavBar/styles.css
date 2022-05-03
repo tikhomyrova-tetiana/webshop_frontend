@@ -9,22 +9,57 @@
   align-items:center;
   justify-content: center;
 }
-
+.logo {
+  max-height: 40px;
+  max-width: auto;
+}
 .green-box {
-  max-width: 500px;
+ width: 900px;
   display: flex;
   justify-content: space-between;
-  flex-grow: 1;
-  background-color: green;
+  flex-direction:row;
+  /* background-color: green; */
   margin-left: auto;
   margin-right: auto;
 }
 
-.red-box {
-  max-width: 200px;
-  background-color: red;
+.navLinks {
+  width: 500px;
+  display: flex;
+  justify-content:space-between;
+  flex-direction:row;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 
-.active {
- opacity: 0.5;
+.inputNavBar {
+  width: 50px;
+  margin-left: 100px;
+}
+
+.red-box {
+  width: 100px;
+  /* background-color: red; */
+  display:flex;
+  justify-content:space-between;
+  margin-right: 30px;
+}
+
+a:link {
+  text-decoration: none;
+  color: rgb(9, 10, 10);
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(9, 10, 10);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+ color: white;
 }

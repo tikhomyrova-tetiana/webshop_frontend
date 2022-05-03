@@ -21,7 +21,9 @@ export default function ProductCard(props) {
       <NavLink to={`/details/${props.id}`}>
         <h3 className="product-title">{props.title}</h3>
       </NavLink>
-      <p>Price: € {props.price}</p>
+      <div className="price">
+        <p>Price: € {props.price}</p>
+      </div>
     </div>
   );
 }

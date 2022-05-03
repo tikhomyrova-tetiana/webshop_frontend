@@ -32,4 +32,9 @@
 
 .star-rating {
   display: block;
+  margin: 2px;
+}
+
+.price {
+  align-self: stretch;
 }

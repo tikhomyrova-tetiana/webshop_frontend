@@ -1,0 +1,25 @@
+.footer {
+    height: 532px;
+    background-color: #0D0E43;
+    color: #8A8FB9
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF
+}
+
+.footer-list div a {
+    text-decoration: none;
+    color: #8A8FB9
+}
+  
+.footer-list div a:hover {
+    text-decoration: underline;
+  }
+  
+.footer-list div a:active {
+   color: white;
+  }
+

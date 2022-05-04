@@ -1,16 +1,23 @@
 .product-card {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  align-content: center;
-  background-color: rgb(246, 246, 246);
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
   width: 700px;
   height: 200px;
   margin-top: 20px;
   margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 25px;
+  border-radius: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
   box-shadow: 10px 5px 5px rgba(10, 10, 10, 0.061);
+  transition: box-shadow 0.3s;
+}
+.product-card:hover {
+  box-shadow: 0 0 20px rgba(33, 33, 33, 0.2);
 }
 
 .product-image {
@@ -22,12 +29,15 @@
   height: 150px;
   width: 200px;
   margin-left: 20px;
-  margin-right: 50px;
 }
 
 .product-title {
-  align-self: center;
-  max-width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: left;
+  flex-grow: 4;
+  max-width: 350px;
 }
 
 .star-rating {
@@ -36,5 +46,5 @@
 }
 
 .price {
-  align-self: stretch;
+  align-self: flex-start;
 }

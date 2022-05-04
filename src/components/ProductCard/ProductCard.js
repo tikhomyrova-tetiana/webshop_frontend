@@ -14,15 +14,18 @@ export default function ProductCard(props) {
             alt={`${props.title}`}
           />
         </NavLink>
+
         <div className="star-rating">
           <StarRating stars={props.rating} />
         </div>
       </div>
-      <NavLink to={`/details/${props.id}`}>
-        <h3 className="product-title">{props.title}</h3>
-      </NavLink>
-      <div className="price">
-        <p>Price: € {props.price}</p>
+      <div className="product-title">
+        <NavLink to={`/details/${props.id}`}>
+          <h3>{props.title}</h3>
+        </NavLink>
+        <div className="price">
+          <p>Price: € {props.price}</p>
+        </div>
       </div>
     </div>
   );

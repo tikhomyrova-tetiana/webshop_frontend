@@ -2,6 +2,7 @@ import React from 'react'
 import "./styles.css"
 import axios from 'axios'
 import {useState, useEffect} from 'react'
+import {Link} from 'react-router-dom'
 
 function ProductDescription(props) {
 
@@ -18,8 +19,13 @@ function ProductDescription(props) {
     }, [])
 
     return productDetail ? (
-        <div>
-           <h1>{productDetail.description}</h1>
+        <div className="descriptView">
+          <div className="descriptMenu">
+            <div><Link to={`/details/${id}`}>Description</Link></div>
+            <div><Link to={`/details/${id}`}>Additional info</Link></div>
+            <div><Link to={`/details/${id}`}>Reviews</Link></div>
+          </div>
+           <p>{productDetail.description}</p>
         </div>
     ) : (
         <p>Wait..</p>

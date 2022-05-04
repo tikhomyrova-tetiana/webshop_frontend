@@ -40,11 +40,17 @@
   max-width: 350px;
 }
 
-.star-rating {
-  display: block;
-  margin: 2px;
+.price-rating {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 200px;
 }
-
-.price {
-  align-self: flex-start;
+.card-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100px;
 }

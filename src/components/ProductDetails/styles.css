@@ -35,8 +35,15 @@
     justify-content: space-between;
 }
 
-.twoElements {
-    width: 200px;
+.rating-part {
+    width: 220px;
+    display:flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.two-buttons {
+    width: 220px;
     display:flex;
     align-items: baseline;
     justify-content: space-between;

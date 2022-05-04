@@ -31,27 +31,27 @@ function ProductDetail (props) {
            </div>
            <div className="details">
             <h1>{productDetail.title}</h1>
-            <div className='twoElements'>
+            <div className='rating-part'>
                 <StarRating stars={productDetail.rating} />
                 <h2>{productDetail.rating}</h2>
                 <div>
-                <button onClick={togglePopup}>Add review</button>
-                {isOpen && <Popup
-                content={<>
-                    <h1>Add review</h1>
-                    <h6>Name</h6>
-                    <input></input>
-                    <h6>Rating</h6>
-                    <h6>Review</h6>
-                    <input></input>
-                </>}
-                handleClose={togglePopup}
-                />}
+                        <button onClick={togglePopup}>Add review</button>
+                        {isOpen && <Popup
+                        content={<>
+                            <h1>Add review</h1>
+                            <h6>Name</h6>
+                            <input></input>
+                            <h6>Rating</h6>
+                            <h6>Review</h6>
+                            <input></input>
+                        </>}
+                        handleClose={togglePopup}
+                        />}
                 </div>
             </div>
             <h2>{productDetail.price}</h2>
             <p>{productDetail.description}</p>
-            <div className="twoElements">
+            <div className="two-buttons">
                 <button>Add to Cart</button>
                 <button>Favorite</button>
             </div>

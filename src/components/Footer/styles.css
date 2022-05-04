@@ -1,7 +1,17 @@
 .footer {
     height: 532px;
     background-color: #0D0E43;
-    color: #8A8FB9
+    color: #8A8FB9;
+    display:flex;
+    justify-content:center;
+}
+
+.lists {
+    width: 500px;
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+margin-left: 100px;
 }
 
 .footer-list {

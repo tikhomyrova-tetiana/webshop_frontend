@@ -38,7 +38,7 @@
   margin-left: 100px;
 }
 
-.red-box {
+.icon-container {
   width: 100px;
   /* background-color: red; */
   display:flex;
@@ -46,20 +46,15 @@
   margin-right: 30px;
 }
 
-a:link {
+.navLinks a {
   text-decoration: none;
   color: rgb(9, 10, 10);
 }
 
-a:visited {
-  text-decoration: none;
-  color: rgb(9, 10, 10);
-}
-
-a:hover {
+.navLinks a:hover {
   text-decoration: underline;
 }
 
-a:active {
+.navLinks a:active {
  color: white;
 }

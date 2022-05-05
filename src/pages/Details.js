@@ -1,6 +1,4 @@
  import React from 'react'
- import axios from 'axios'
- import {useState, useEffect} from 'react'
  import {useParams} from 'react-router-dom'
  import ProductDetail from '../components/ProductDetails/ProductDetails'
  import ProductDescription from '../components/ProductDescription/ProductDescription'

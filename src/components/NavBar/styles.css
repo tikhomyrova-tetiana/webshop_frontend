@@ -58,3 +58,17 @@
 .navLinks a:active {
  color: white;
 }
+
+.navbar-button {
+  background-color:#8568ff;
+ border: none;
+
+}
+
+.login-link {
+  color:black
+}
+
+.login-link:hover {
+  color: white
+}

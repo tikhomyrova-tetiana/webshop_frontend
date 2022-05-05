@@ -15,7 +15,11 @@ const NavBar = () => {
             </div>
             <div className="inputNavBar"><input type="text" placeholder="search.."/></div>
         </div>
-        <div className="icon-container"><BsFillPersonFill /><BsBasket3Fill /><BsHeartFill /></div>
+        <div className="icon-container">
+            <button className="navbar-button"><NavLink className="login-link" to={`/login`}><BsFillPersonFill /></NavLink></button>
+            <button className="navbar-button"><BsBasket3Fill /></button>
+            <button className="navbar-button"><BsHeartFill /></button>
+        </div>
         </div>
     )
 }

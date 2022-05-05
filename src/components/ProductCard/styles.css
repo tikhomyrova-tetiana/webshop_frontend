@@ -39,7 +39,10 @@
   flex-grow: 4;
   max-width: 350px;
 }
-
+.product-title a {
+  text-decoration: none;
+  color: black;
+}
 .price-rating {
   display: flex;
   flex-direction: row;

@@ -1,0 +1,78 @@
+.homepage {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  height: 700px;
+}
+.shop-image {
+  margin-top: 100px;
+  width: 500px;
+  height: 500px;
+  margin-right: 10px;
+  position: relative;
+}
+
+.shop-image div {
+  font-size: 30px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: white;
+  color: #8568ff;
+  margin-bottom: 5px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+.shop-image:hover {
+  cursor: pointer;
+  opacity: 0.4;
+}
+
+.shop-image:hover div {
+  width: 300px;
+  height: 100px;
+  padding: 20px 15px;
+
+  visibility: visible;
+  opacity: 1;
+}
+
+.four-categories {
+  margin-top: 100px;
+  margin-left: 20px;
+}
+.small-image {
+  display: flex;
+  width: 115px;
+  height: 115px;
+  margin-right: 10px;
+  margin-bottom: 13.3px;
+}
+
+.small-image div {
+  bottom: 0;
+  right: 0;
+  background: white;
+  color: #8568ff;
+  margin-bottom: 5px;
+  opacity: 1;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+.small-image:hover {
+  cursor: pointer;
+  opacity: 0.4;
+}
+
+.small-image:hover div {
+  width: 150px;
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 1;
+}

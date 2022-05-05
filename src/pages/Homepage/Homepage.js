@@ -1,14 +1,17 @@
+import { NavLink } from "react-router-dom";
 import "./styles.css";
 export default function Homepage() {
   return (
     <div className="homepage">
       <div className="shop-image">
-        <img
-          src="https://i.ibb.co/CMj9tdj/shop.jpg"
-          alt="shop"
-          width="100%"
-          height="100%"
-        />
+        <NavLink to="/shop">
+          <img
+            src="https://i.ibb.co/CMj9tdj/shop.jpg"
+            alt="shop"
+            width="100%"
+            height="100%"
+          />
+        </NavLink>
         <div>SHOP</div>
       </div>
       <div className="four-categories">

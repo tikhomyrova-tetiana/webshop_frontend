@@ -1,8 +1,8 @@
-import ProductCard from "../components/ProductCard/ProductCard";
+import ProductCard from "../../components/ProductCard/ProductCard";
 import axios from "axios";
 import { useEffect, useState } from "react";
-import CategoryFilter from "../components/CategoryFilter/CategoryFilter";
-import "./Shop.css";
+import CategoryFilter from "../../components/CategoryFilter/CategoryFilter";
+import "./styles.css";
 
 export default function Shop() {
   const [getProductList, setProductList] = useState([]);

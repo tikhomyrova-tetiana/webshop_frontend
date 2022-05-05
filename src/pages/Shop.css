@@ -1,0 +1,12 @@
+.shop {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.category-filter {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  align-content: space-between;
+  margin-left: 40px;
+}

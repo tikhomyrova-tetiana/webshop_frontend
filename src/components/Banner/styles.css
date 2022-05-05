@@ -1,0 +1,19 @@
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: #8568ff;
+  width: 100%;
+  height: 450px;
+}
+.banner-text {
+  margin-left: 300px;
+  margin-bottom: 200px;
+  text-align: left;
+  color: white;
+}
+.banner-image {
+  max-width: 300px;
+  max-height: 400px;
+  margin-right: 233px;
+}

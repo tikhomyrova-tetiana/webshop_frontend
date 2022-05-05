@@ -55,7 +55,7 @@ function ProductDetail (props) {
                 <button>Add to Cart</button>
                 <button>Favorite</button>
             </div>
-            <h4>Categories: </h4>
+            <h4>Categories:  {productDetail.categoryId}</h4>
             <div className="shareIcons">Share  <BsFacebook /><BsInstagram /><BsTwitter /></div>
            </div>
         </div>

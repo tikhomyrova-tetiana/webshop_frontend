@@ -1,41 +1,49 @@
 import React from 'react'
 import axios from "axios";
+import './styles.css'
 import { useEffect, useState } from "react";
 import {useParams} from 'react-router-dom'
+import { Button } from '@mui/material';
 
 function Login() {
 
     const [inputEmail, setInputEmail] = useState('')
     const [inputPassword, setInputPassword] = useState('')
-    const [login, setLogin] = useState(null)
+    const [token, setToken] = useState(null)
 
-    const onSubmit = async ({email, password}) => {
+    useEffect(() => {
+        const onSubmit = async () => {
         try {
-            const response = await axios.post('http://localhost:4000/auth/login', {email: email, password: password})
-            const login = response.data
+            const token = await axios.post('http://localhost:4000/auth/login', {email: "john@gmail.com", password: "password"})
+            setToken(token.data)
+            console.log(token.data)
         } catch(error) {
             console.log(error.message)
         }
     }
-
+        onSubmit()
+    }, [])
+    
     return (
-           <div>
-                <form className="submit-form">
-             <h1>Login</h1>
-             <h5>Welcome! Log in</h5>
-             <div>
-                 <h5>Email Address</h5>
-                 <input value={inputEmail} onChange={(event) => setInputEmail(event.target.value)}></input>
-             </div>
-             <div>
-                 <h5>Password</h5>
-                 <input value={inputPassword} onChange={(event) => setInputPassword(event.target.value)}></input>
-             </div>
-             <button type="submit" onClick={(event) => onSubmit(inputEmail, inputPassword)}>Register</button>
-            </form>
-            <div>
-                { login ? (`Welcome ${login.name}`) : (<p>Something went wrong</p>)}
-            </div>
+           <div className="login-form">
+                <div>
+                    <div>
+                        <h1>Login</h1>
+                        <h2>Welcome! Log in</h2>
+                    </div>
+                    <div>
+                        <h3>Email Address</h3>
+                        <input value={inputEmail} onChange={(event) => setInputEmail(event.target.value)}></input>
+                    </div>
+                    <div>
+                        <h3>Password</h3>
+                        <input value={inputPassword} onChange={(event) => setInputPassword(event.target.value)}></input>
+                    </div>
+                    <div><Button variant="outlined" color="secondary" size="small" type="submit" onClick={(event) => setToken()}>Register</Button></div>
+                </div>
+                <div>
+                    { token ? (`Welcome ${token}`) : (<p>Something went wrong</p>)}
+                </div>
            </div>
          )
 }

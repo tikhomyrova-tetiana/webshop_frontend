@@ -9,8 +9,12 @@ import Signup from "./pages/Signup";
 import { NavBar } from "../src/components/NavBar/NavBar";
 import Login from "./pages/Login";
 import Banner from "./components/Banner/Banner";
+import { useState } from "react";
 
 function App() {
+
+  const [user, setUser] = useState(null)
+
   return (
     <div className="App">
       <NavBar />
@@ -21,7 +25,7 @@ function App() {
         <Route path="/details/:id" element={<Details />} />
         <Route path="/shop/category/:id" element={<Categories />} />
         <Route path="/signup" element={<Signup />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/login" element={<Login setUser={setUser} />} />
       </Routes>
       <Footer />
     </div>

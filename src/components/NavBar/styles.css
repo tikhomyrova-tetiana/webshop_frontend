@@ -13,7 +13,7 @@
   max-height: 40px;
   max-width: auto;
 }
-.green-box {
+.menu {
  width: 900px;
   display: flex;
   justify-content: space-between;
@@ -30,7 +30,10 @@
   flex-direction:row;
   margin-left: auto;
   margin-right: auto;
-  
+}
+
+.navLinks div {
+  font-size: x-large
 }
 
 .inputNavBar {
@@ -38,8 +41,13 @@
   margin-left: 100px;
 }
 
+.inputNavBar input {
+  width: 160px;
+  height: 25px
+}
+
 .icon-container {
-  width: 100px;
+  width: 120px;
   /* background-color: red; */
   display:flex;
   justify-content:space-between;

@@ -6,7 +6,7 @@ import { BsFillPersonFill, BsBasket3Fill, BsHeartFill } from "react-icons/bs"
 const NavBar = () => {
     return (
         <div className="container">
-        <div className="green-box">
+        <div className="menu">
             <div className="navLinks">
                 <div><NavLink to={"/"} >OUR <span style={{color: "white"}}>SHOP</span></NavLink></div>
                 <div><NavLink to={"/"} >Homepage</NavLink></div>

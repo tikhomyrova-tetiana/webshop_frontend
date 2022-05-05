@@ -20,7 +20,7 @@ function Signup() {
     // }, [])
 
     return (
-       <form className="submit-form">
+       <form>
         <h1>Register</h1>
         <h5>Welcome! Create an account</h5>
         <div>

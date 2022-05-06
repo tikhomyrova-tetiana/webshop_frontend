@@ -2,6 +2,7 @@ import React from 'react'
  import axios from 'axios'
  import {useState, useEffect} from 'react'
  import {useParams} from 'react-router-dom'
+import Banner from '../components/Banner/Banner'
  
  
 function CategoryPage() {
@@ -12,6 +13,7 @@ function CategoryPage() {
 
     return (
         <div>
+            <Banner />
            <h1>Categoty</h1>
         </div>)
 }

@@ -36,14 +36,14 @@
 }
 
 .rating-part {
-    width: 220px;
+    width: 250px;
     display:flex;
     align-items: baseline;
     justify-content: space-between;
 }
 
 .two-buttons {
-    width: 220px;
+    width: 350px;
     display:flex;
     align-items: baseline;
     justify-content: space-between;

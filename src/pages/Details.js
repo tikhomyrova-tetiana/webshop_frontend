@@ -2,6 +2,7 @@
  import {useParams} from 'react-router-dom'
  import ProductDetail from '../components/ProductDetails/ProductDetails'
  import ProductDescription from '../components/ProductDescription/ProductDescription'
+import Banner from '../components/Banner/Banner'
 
  
 function DetailsPage() {
@@ -12,8 +13,9 @@ function DetailsPage() {
 
     return (
         <div>
-           <ProductDetail id={id}/>
-           <ProductDescription id={id}/>
+            <Banner />
+            <ProductDetail id={id}/>
+            <ProductDescription id={id}/>
         </div>)
 }
 

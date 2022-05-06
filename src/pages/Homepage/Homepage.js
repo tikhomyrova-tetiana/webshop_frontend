@@ -1,8 +1,13 @@
 import { NavLink } from "react-router-dom";
+import Banner from "../../components/Banner/Banner";
 import "./styles.css";
+
+
 export default function Homepage() {
   return (
-    <div className="homepage">
+    <div>
+      <Banner />
+      <div className="homepage">
       <div className="shop-image">
         <NavLink to="/shop">
           <img
@@ -52,6 +57,7 @@ export default function Homepage() {
           <div>ELECTRONICS</div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

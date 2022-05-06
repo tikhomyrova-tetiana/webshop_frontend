@@ -3,6 +3,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import CategoryFilter from "../../components/CategoryFilter/CategoryFilter";
 import "./styles.css";
+import Banner from "../../components/Banner/Banner";
 
 export default function Shop() {
   const [getProductList, setProductList] = useState([]);
@@ -51,6 +52,7 @@ export default function Shop() {
 
   return (
     <div>
+      <Banner />
       <h1>Shop</h1>
       <div className="shop">
         <div className="category-filter">

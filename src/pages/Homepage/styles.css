@@ -2,7 +2,7 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  height: 700px
+  height: 700px;
 }
 .shop-image {
   margin-top: 100px;
@@ -13,7 +13,7 @@
 }
 
 .shop-image div {
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
   position: absolute;
   bottom: 0;
@@ -47,6 +47,7 @@
 }
 .small-image {
   display: flex;
+  align-items: center;
   width: 115px;
   height: 115px;
   margin-right: 10px;
@@ -54,6 +55,8 @@
 }
 
 .small-image div {
+  font-size: 20px;
+  font-weight: bolder;
   bottom: 0;
   right: 0;
   background: white;
